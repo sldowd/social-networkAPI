@@ -57,4 +57,4 @@ const thoughtController = {
 };
 
 
-module.exports = userController;
+module.exports = thoughtController;
