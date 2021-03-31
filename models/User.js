@@ -1,11 +1,5 @@
 const { Schema, model, Types } = require('mongoose');
 
-const FriendSchema = new Schema(
-    {
-        
-    }
-)
-
 const UserSchema = new Schema(
     {
         username: {
@@ -26,12 +20,16 @@ const UserSchema = new Schema(
                 ref: 'Thought'
             }
         ],
-        friends: [FriendSchema]
+        friends: [
+            {
+                type: Schema.Types.ObjectId,
+                ref: 'User'
+            }
+        ]
     },
     {
         toJSON: {
-            virtuals: true,
-            getters: true
+            virtuals: true
         },
         id: false
     }
