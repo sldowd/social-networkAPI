@@ -170,6 +170,10 @@ at [https://www.contributor-covenant.org/translations][translations].
 
 Test API routes using Insomnia as shown in the walkthrough video.
 
+### Link to Walkthrough video:
+
+https://youtu.be/LigrssEAjnA
+
 ### Questions
 
 Addtional Questions? Email them to sarahlynnedowd@gmail.com.
